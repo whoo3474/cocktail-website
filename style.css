@@ -133,7 +133,7 @@ body{
 
 .menu a:hover{
   text-decoration: underline;
-  color:148683;
+  color:#148683;
 }
 
 .cocktail-info {
@@ -165,4 +165,28 @@ body{
 
 .pager {
   position:absolute;
+  bottom: 35px;
+  left:50%;
+  transform: translate(-50%);
+}
+
+.pager li {
+  float: left;
+  margin-right:10px;
+}
+
+.pager a {
+  display: block;
+  width:20px;
+  height: 4px;
+  background-color: #fed946;
+}
+
+.pager a:hover {
+  background-color : #ddbc3c;
+}
+
+.pager a.on {
+  background-color: #fe5603;
+  width:40px;
 }
