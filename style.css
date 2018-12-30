@@ -1,3 +1,7 @@
+<style>
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,700');
+</style>
+
 /* css 초기화 작업 */
 
 body, h1, h2, p, ul {
@@ -15,3 +19,22 @@ a{
 }
 
 /* css 디자인 영역 */
+
+body{
+  background-image: url(image/images.jpg);
+  background-position:center;
+  background-size: contain;
+  font-family: 'Roboto', sans-serif;
+  color: #1ab1ad;
+}
+
+.wrapper {
+  width: 1280px;
+  margin: 100px auto;
+  background-color : #fff;
+}
+
+.side {
+  width: 360px;
+  background-color: #fed946;
+}
