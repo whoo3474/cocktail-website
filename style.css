@@ -52,6 +52,10 @@ body{
   background-color: #fed946;
   padding: 40px;
   box-sizing: border-box;
+
+  float: left;
+  /* side를 왼쪽에 두고 content를 오른쪽으로 배치하기 위해서.
+  이것을 안하면 side가 block 이라서 content 가 밑으로 감 */
 }
 
 .logo {
@@ -94,4 +98,35 @@ body{
   background-image: url(image/kakaoFriends.jpg);
   background-repeat:no-repeat;
   background-size: 20px auto;
+}
+
+.contact a:hover{
+  box-shadow : 1px 1px 7px rgba(0,0,0,0.1);
+}
+
+.content{
+  overflow:hidden;
+  text-align: right;
+  padding: 60px;
+  box-sizing: border-box;
+}
+
+.menu {
+   display: inline-block;
+   margin-top: -10px;
+}
+
+.menu li {
+  float: left;
+  margin-left: 20px;
+}
+
+.menu a {
+  display : block;
+  padding: 10px;
+}
+
+.menu a:hover{
+  text-decoration: underline;
+  color:148683;
 }
