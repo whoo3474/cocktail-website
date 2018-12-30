@@ -4,7 +4,7 @@
 @import url('https://fonts.googleapis.com/css?family=Josefin+Sans:400,700');
 /* css 초기화 작업 */
 
-body, h1, h2, p, ul {
+body, h1, h2, h3, p, ul {
   margin: 0;
   padding :0;
 }
@@ -16,6 +16,10 @@ li {
 a{
   text-decoration: none;
   color: inherit;
+}
+
+img{
+  vertical-align: top;
 }
 
 /* 폰트 스타일 */
@@ -109,6 +113,7 @@ body{
   text-align: right;
   padding: 60px;
   box-sizing: border-box;
+  position: relative;
 }
 
 .menu {
@@ -129,4 +134,35 @@ body{
 .menu a:hover{
   text-decoration: underline;
   color:148683;
+}
+
+.cocktail-info {
+  width:800px;
+  margin: 80px auto 0;
+}
+
+.cocktail-info img{
+  width:500px;
+}
+
+ .cocktail {
+  float:left;
+}
+
+.cocktail.unicon{
+  margin: 20px -20px 0 0;
+}
+
+.cocktail-name.josefin{
+  font-size: 35px;
+  font-weight: 400;
+  margin-bottom: 20px;
+}
+
+.cocktail-detail .description{
+  line-height: 2;
+}
+
+.pager {
+  position:absolute;
 }
