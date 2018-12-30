@@ -190,3 +190,22 @@ body{
   background-color: #fe5603;
   width:40px;
 }
+
+.sns {
+  position: absolute;
+  right:20px;
+  top:50%;
+  width:20px;
+}
+
+.sns a {
+  display : block;
+  height:20px;
+  background-image: url(image/kakaoStory.jpg);
+  background-size: 20px auto;
+  border-radius: 100%; 
+}
+
+.sns a:hover {
+  box-shadow: 1px 1px 7px rgba(0,0,0,0.1);
+}
