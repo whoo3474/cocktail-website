@@ -1,7 +1,7 @@
-<style>
-@import url('https://fonts.googleapis.com/css?family=Roboto:400,700');
-</style>
 
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,700');
+@import url('https://fonts.googleapis.com/css?family=Righteous');
+@import url('https://fonts.googleapis.com/css?family=Josefin+Sans:400,700');
 /* css 초기화 작업 */
 
 body, h1, h2, p, ul {
@@ -17,6 +17,19 @@ a{
   text-decoration: none;
   color: inherit;
 }
+
+/* 폰트 스타일 */
+.josefin {
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+/* float clear */
+.clear:after {
+  content: '';
+  display: block;
+  clear:both;
+}
+
 
 /* css 디자인 영역 */
 
@@ -37,4 +50,48 @@ body{
 .side {
   width: 360px;
   background-color: #fed946;
+  padding: 40px;
+  box-sizing: border-box;
+}
+
+.logo {
+  display:inline-block;
+  margin-left: 80px;
+}
+
+.logo h1{
+  font-family: 'Righteous', cursive;
+  color: #fe5603;
+  font-size: 100px;
+  text-shadow: 5px 5px 7px rgba(0,0,0,0.1);
+}
+
+.intro {
+  color: #fff;
+  margin: 222px 0 330px;
+}
+
+.intro h2.josefin{
+  font-size: 24px;
+  margin-bottom: 15px;
+}
+
+.intro .intro-article {
+  font-size : 12px;
+  line-height:1.5;
+}
+
+.contact li {
+  float:left;
+  margin-right: 10px;
+}
+
+.contact a {
+  display: block;
+  width:20px;
+  height:20px;
+  border-radius: 100%;
+  background-image: url(image/kakaoFriends.jpg);
+  background-repeat:no-repeat;
+  background-size: 20px auto;
 }
